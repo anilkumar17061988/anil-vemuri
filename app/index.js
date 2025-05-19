@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Node.js sample app!');
+  res.send('Hello from Anil\'s Node.js App running on Kubernetes!');
 });
 
-app.listen(port, () => {
-  console.log(`App running at http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`App is running on port ${PORT}`);
 });
