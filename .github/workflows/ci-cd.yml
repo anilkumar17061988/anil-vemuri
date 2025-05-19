@@ -26,4 +26,4 @@ jobs:
         with:
           context: ./app
           push: true
-          tags: rjshsynectiks/node-js-sample:latest
+          tags: anilkumar1988/node-js-sample:latest
